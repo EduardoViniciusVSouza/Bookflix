@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken')
 
 function verifyJwt(req, res, next) {
     var token = req.headers['x-acess-token']
-    console.log('testando jwt: ' + token)
 
     if (!token) return res.status(401).send({ auth: false, message: 'No token provided.' });
 

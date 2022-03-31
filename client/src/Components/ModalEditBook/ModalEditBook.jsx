@@ -46,7 +46,7 @@ function ModalEditBook({ modalOpen, setModalOpen, book }) {
         config
       )
       .then((req) => {
-        alert("Livro Alterado com sucesso");
+        alert("Livro Alterado com sucesso.");
         window.location.reload();
       })
       .catch((err) => {
