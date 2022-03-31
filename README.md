@@ -18,3 +18,6 @@ Cadastro/alteração/listagem de reservas de livros
 Requisitos não funcionais:
 O sistema deverá ter uma interface amigável para os seus usuários.
 
+Como testar:
+
+Abra algum terminal, e rode npm start dentro das duas pastas (client, server), o client rodará na porta 3000, e o servidor na porta 3001
