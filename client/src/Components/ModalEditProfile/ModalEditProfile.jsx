@@ -18,7 +18,6 @@ import { texto, blackBackground } from "./ModalEdit.styles";
 const api = "http://localhost:3001/Profiles/";
 
 function ModalEditProfile({ modalOpen, setModalOpen, profile }) {
-    console.log("filhoda taputa" + profile)
   const [name, setName] = useState("");
 
   const navigate = useNavigate();
